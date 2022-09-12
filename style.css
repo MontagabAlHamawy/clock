@@ -1,0 +1,268 @@
+body {
+    background-color: rgb(76, 78, 78);
+    font-family: monospace;
+}
+
+.conatainer {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.clock {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 3px solid #81fe20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock .number {
+    font-size: 50px;
+    font-weight: bold;
+    color: #81fe20;
+}
+
+.clock .a {
+    position: absolute;
+    top: 38px;
+    right: 133px;
+}
+
+.clock .b {
+    position: absolute;
+    top: 123px;
+    right: 71px;
+}
+
+.clock .c {
+    position: absolute;
+    top: 219px;
+    right: 39px;
+}
+
+.clock .d {
+    position: absolute;
+    top: 323px;
+    right: 71px;
+}
+
+.clock .e {
+    position: absolute;
+    top: 395px;
+    right: 133px;
+}
+
+.clock .k {
+    position: absolute;
+    top: 38px;
+    left: 133px;
+}
+
+.clock .j {
+    position: absolute;
+    top: 123px;
+    left: 71px;
+}
+
+.clock .i {
+    position: absolute;
+    top: 219px;
+    left: 39px;
+}
+
+.clock .h {
+    position: absolute;
+    top: 323px;
+    left: 71px;
+}
+
+.clock .g {
+    position: absolute;
+    top: 395px;
+    left: 133px;
+}
+
+.clock .l {
+    position: absolute;
+    top: 16px;
+    left: 226px;
+}
+
+.clock .f {
+    position: absolute;
+    bottom: 16px;
+    left: 237px;
+}
+
+.clock .minit {
+    width: 3px;
+    height: 120px;
+    background-color: #323332;
+    left: 248px;
+    top: 130px;
+    position: absolute;
+    transform-origin: left bottom;
+}
+
+.clock .seco {
+    width: 2px;
+    height: 166px;
+    background-color: #81fe20;
+    position: absolute;
+    left: 249px;
+    TOP: 85px;
+    z-index: 10;
+    transform-origin: left bottom;
+}
+
+.clock .hour {
+    width: 3px;
+    height: 100px;
+    background-color: #323332;
+    position: absolute;
+    top: 149px;
+    transform-origin: left bottom;
+}
+.da{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ee,.mo,.de {
+    padding-top: 10px;
+    color: #81fe20;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.tt {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #81fe20;
+    z-index: 20;
+}
+
+@media (max-width:620px) {
+    .clock {
+        margin-top: 100px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .clock .a {
+        position: absolute;
+        top: 21px;
+        right: 77px;
+    }
+
+    .clock .b {
+        position: absolute;
+        top: 64px;
+        right: 37px;
+    }
+
+    .clock .c {
+        top: 130px;
+        right: 15px;
+    }
+
+
+    .clock .d {
+        position: absolute;
+        top: 192px;
+        right: 33px;
+    }
+
+    .clock .e {
+        position: absolute;
+        top: 243px;
+        right: 77px;
+    }
+
+    .clock .k {
+        position: absolute;
+        top: 21px;
+        left: 77px;
+    }
+
+    .clock .j {
+        position: absolute;
+        top: 64px;
+        left: 37px;
+    }
+
+    .clock .i {
+        position: absolute;
+        top: 130px;
+        left: 15px;
+    }
+
+    .clock .h {
+        position: absolute;
+        top: 192px;
+        left: 33px;
+    }
+
+    .clock .g {
+        position: absolute;
+        top: 243px;
+        left: 77px;
+    }
+
+    .clock .l {
+        position: absolute;
+        top: 7px;
+        left: 139px;
+    }
+
+    .clock .f {
+        position: absolute;
+        bottom: 4px;
+        left: 142px;
+    }
+
+    .clock .number {
+        font-size: 30px;
+    }
+
+    .clock .minit {
+        width: 3px;
+        height: 82px;
+        background-color: #323332;
+        left: 148px;
+        position: absolute;
+        top: 69px;
+    }
+
+    .clock .seco {
+        top: 66px;
+        height: 83px;
+        width: 2px;
+        left: 150px;
+    }
+
+    .clock .hour {
+        height: 67px;
+        width: 3px;
+        top: 83px;
+
+    }
+
+
+.ee,.mo,.de {
+    font-size: 30px;
+}
+.da{
+    margin-top: 20px;
+}
+}
